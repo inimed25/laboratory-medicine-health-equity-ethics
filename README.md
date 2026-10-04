@@ -1,6 +1,6 @@
 # Laboratory Medicine: Health Equity, Ethics & Leadership
 
-An interactive, evidence-grounded curriculum for trainees and future laboratory directors exploring health equity, diagnostic justice, ethics, quality improvement, implementation, laboratory economics, clinical partnership, workforce leadership, and systems-level decision-making.
+An interactive, evidence-grounded health equity curriculum for pathology residents and fellows, connecting diagnostic access, assay design, interpretation, stewardship, quality improvement, and informatics with laboratory medicine.
 
 ## Why this project?
 
@@ -28,7 +28,7 @@ Learners should examine the evidence directly, challenge interpretations present
 
 This project is designed to be:
 
-- **Director-centered:** focused on decisions laboratory leaders can control, influence, or address through partnership and advocacy.
+- **Laboratory-centered:** focused on testing and reporting choices, patient access, and interdisciplinary collaboration.
 - **Evidence-grounded:** separating established guidance, evidence-supported applications, emerging questions, and case-based reasoning.
 - **Inquiry-driven:** rewarding careful questions and evidence-based reasoning rather than guessing the author's preferred conclusion.
 - **Case-based rather than textbook-like:** short lessons anchored in realistic laboratory and clinical problems.
@@ -36,24 +36,28 @@ This project is designed to be:
 - **Transparent about uncertainty:** preserving meaningful nuance, disagreement, limitations, and open questions rather than flattening them into false certainty.
 - **Iterative:** sections will be built, reviewed, and revised one at a time before the full curriculum is finalized.
 
-## Working curriculum map
+## Current learner draft and preview
 
-### Section 1 — Foundations: Health Equity, Diagnostic Justice & the Laboratory Director
-1.1 From Health Disparities to Health Equity  
-1.2 What Is Laboratory Equity?  
-1.3 The Diagnostic Journey  
-1.4 The Laboratory Is Not a Neutral Observer  
-1.5 From Laboratory Result to Diagnostic System  
-1.6 Who Is the Laboratory Responsible To?  
-1.7 What Can a Laboratory Director Actually Change?  
-1.8 Evidence, Context & Director Judgment  
-1.9 Director Challenge  
-1.10 Section Debrief
+- [Learner draft](curriculum/health-equity-learner-draft.md): current educational content, with 20 scored multiple-choice questions, concept matching, optional reflections, evidence notes, and further reading.
+- [Interactive preview](preview/index.html): download and open in a browser. GitHub's file viewer displays the HTML source; it does not run the preview.
 
-### Section 2 — Data, Measurement & Defining the Problem
-*Planned; not yet finalized.*
+The preview is a self-contained HTML file. It has a section menu, staged cases, feedback after answering, and expandable supporting material. No timer or required passing score is used. Answers remain available when moving between sections while the page stays open; they are not saved after closing or refreshing.
 
-Future sections may address diagnostic access and screening, assay development and implementation, diagnostic stewardship and quality improvement, clinical partnership and project leadership, economics/insurance/billing, workforce equity and safety, informatics and AI, microbiology case studies, advocacy and policy, laboratory ethics, and global/resource-constrained diagnostics.
+## Curriculum map
+
+| Section | Focus |
+|---|---|
+| 1 | Foundations: health disparities and health equity |
+| 2 | Who becomes visible in laboratory data? |
+| 3 | Access to diagnostic characterization and its timing |
+| 4 | Bias before the specimen: who is considered for testing? |
+| 5 | Reference populations, validation, and representation |
+| 6 | Test suitability in a particular setting |
+| 7 | Diagnostic stewardship through an equity lens |
+| 8A | Quality improvement and laboratory action |
+| 8B | Informatics, AI data, and laboratory reporting |
+
+Older Section 1 scripts, storyboards, and evidence maps are retained as editorial history. They are not a second required foundations section; the linked learner draft is the current assembled content.
 
 ## Evidence framework
 
@@ -70,9 +74,9 @@ Typical lessons will end with a concise evidence base rather than an exhaustive 
 
 Most lessons will aim to follow a short, consistent rhythm:
 
-**Problem → Core concept → Evidence → Director's lens → Applied case → Tradeoffs → What would you measure? → Takeaway**
+**Case → Question → Explanation → Takeaway → Expandable evidence**, with optional reflections and further reading.
 
-Major sections will end with an assessment, debrief, key takeaways, and curated references.
+Connected questions reveal additional information in stages. Assessment feedback follows each answer.
 
 ## Development standard
 
@@ -84,4 +88,4 @@ The curriculum should not reward guessing an author's opinion. Assessments shoul
 
 ## Current status
 
-The project is in early curriculum-design development. Section 1 architecture and the Section 1.1 evidence map/storyboard are the current focus; learner-facing content and website implementation follow after review.
+The learner draft and all section previews are assembled for review. Content structure and JavaScript syntax checks pass. Controlled DOM-fixture tests cover answer feedback, unanswered submissions, matching, and navigation handlers. These are not substitutes for full browser interaction and visual accessibility review, which remain outstanding. The preview has not been published as a website.
