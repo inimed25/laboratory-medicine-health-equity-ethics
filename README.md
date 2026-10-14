@@ -38,10 +38,10 @@ This project is designed to be:
 
 ## Current learner draft and preview
 
-- [Learner draft](curriculum/health-equity-learner-draft.md): current educational content, with 20 scored multiple-choice questions, concept matching, optional reflections, evidence notes, and further reading.
+- [Learner draft](curriculum/health-equity-learner-draft.md): current educational content, with 23 multiple-choice questions, concept matching, optional reflections, evidence notes, and further reading.
 - [Interactive preview](preview/index.html): download and open in a browser. GitHub's file viewer displays the HTML source; it does not run the preview.
 
-The preview is a self-contained HTML file. It has a section menu, staged cases, feedback after answering, and expandable supporting material. No timer or required passing score is used. Answers remain available when moving between sections while the page stays open; they are not saved after closing or refreshing.
+The preview is a self-contained HTML file. It has a section menu, staged cases, feedback after answering, and expandable supporting material. No timer or required passing score is used. Progress, selected answers, explanations, and revealed stages are saved locally in the browser when storage is available. No answers are sent to a server. A reset control clears saved progress. If browser storage is blocked, progress remains available for the current visit.
 
 ## Curriculum map
 
@@ -54,10 +54,11 @@ The preview is a self-contained HTML file. It has a section menu, staged cases, 
 | 5 | Reference populations, validation, and representation |
 | 6 | Test suitability in a particular setting |
 | 7 | Diagnostic stewardship through an equity lens |
-| 8A | Quality improvement and laboratory action |
-| 8B | Informatics, AI data, and laboratory reporting |
+| 8 | Quality improvement and laboratory action |
+| 9 | Informatics, AI data, and laboratory reporting |
+| 10 | Closing application exercise and further reading |
 
-Older Section 1 scripts, storyboards, and evidence maps are retained as editorial history. They are not a second required foundations section; the linked learner draft is the current assembled content.
+Older Section 1 scripts, storyboards, and evidence maps are retained as editorial history. They are not a second required foundations section; the editable `site/sections/*.html` files are the current content source. The linked learner draft is exported from those files so it includes the complete live cases and references.
 
 ## Evidence framework
 
@@ -86,6 +87,25 @@ For curriculum development, the intended workflow is:
 
 The curriculum should not reward guessing an author's opinion. Assessments should preferentially ask learners to determine what a finding supports, identify assumptions, recognize uncertainty, distinguish among plausible mechanisms, decide what additional evidence is needed, and consider what a laboratory professional can reasonably investigate or influence.
 
+## Editing and checking the module
+
+Edit the section HTML in `site/sections/`; section labels and order are defined in `site/sections.json`. Shared progress behavior lives in `site/progress.js`, and the outer navigation and storage logic live in `site/runtime.js`. The original self-contained delivery format is retained.
+
+```sh
+python scripts/build.py
+python scripts/export_draft.py
+```
+
+The build writes identical `docs/index.html` (GitHub Pages) and `preview/index.html` (downloadable) files. Exporting refreshes the learner draft from the same section sources.
+
+DOM interaction checks require Node.js and `jsdom`:
+
+```sh
+NODE_PATH=/path/to/node_modules node scripts/check.js
+```
+
 ## Current status
 
-The learner draft and all section previews are assembled for review. Content structure and JavaScript syntax checks pass. Controlled DOM-fixture tests cover answer feedback, unanswered submissions, matching, and navigation handlers. These are not substitutes for full browser interaction and visual accessibility review, which remain outstanding. The preview has not been published as a website.
+The [educational beta is published on GitHub Pages](https://inimed25.github.io/laboratory-medicine-health-equity-ethics/). The October 14, 2026 revision strengthens distractors and next-step reasoning, adds an HCV process/outcome/balancing-measure question and closing exercise, moves answer citations and scope notes into expandable evidence panels, and adds a public feedback route and browser-local progress/reset.
+
+JavaScript compilation and DOM interaction checks pass for all 23 questions, concept matching, skipping, restored answers and stages, outer section navigation, reset/cancel, stale-save protection, and blocked-storage fallback. These checks do not replace full browser rendering, mobile usability, or assistive-technology review. A local browser download was unavailable, so visual browser QA remains outstanding.
