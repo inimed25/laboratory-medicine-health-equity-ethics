@@ -1,0 +1,46 @@
+[
+  {
+    "label": "Welcome",
+    "file": "sections/00.html"
+  },
+  {
+    "label": "1 \u00b7 Foundations",
+    "file": "sections/01.html"
+  },
+  {
+    "label": "2 \u00b7 Diagnostic journey",
+    "file": "sections/02.html"
+  },
+  {
+    "label": "3 \u00b7 NGS access",
+    "file": "sections/03.html"
+  },
+  {
+    "label": "4 \u00b7 Testing eligibility",
+    "file": "sections/04.html"
+  },
+  {
+    "label": "5 \u00b7 Reference populations",
+    "file": "sections/05.html"
+  },
+  {
+    "label": "6 \u00b7 Test suitability",
+    "file": "sections/06.html"
+  },
+  {
+    "label": "7 \u00b7 Stewardship",
+    "file": "sections/07.html"
+  },
+  {
+    "label": "8 \u00b7 Quality improvement",
+    "file": "sections/08.html"
+  },
+  {
+    "label": "9 \u00b7 Informatics and reporting",
+    "file": "sections/09.html"
+  },
+  {
+    "label": "10 \u00b7 Closing and further reading",
+    "file": "sections/10.html"
+  }
+]
