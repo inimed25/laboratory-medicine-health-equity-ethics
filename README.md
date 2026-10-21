@@ -41,7 +41,7 @@ This project is designed to be:
 - [Learner draft](curriculum/health-equity-learner-draft.md): current educational content, with 23 multiple-choice questions, concept matching, optional reflections, evidence notes, and further reading.
 - [Interactive preview](preview/index.html): download and open in a browser. GitHub's file viewer displays the HTML source; it does not run the preview.
 
-The preview is a self-contained HTML file. It has a section menu, staged cases, feedback after answering, and expandable supporting material. No timer or required passing score is used. Progress, selected answers, explanations, and revealed stages are saved locally in the browser when storage is available. No answers are sent to a server. A reset control clears saved progress. If browser storage is blocked, progress remains available for the current visit.
+The preview is a self-contained HTML file. It has a section menu, staged cases, feedback after answering, and expandable supporting material. No timer or required passing score is used. Progress, selected answers, explanations, and revealed stages are saved locally in the browser when storage is available. A closing learning summary reports the latest submitted MCQ answers, percent correct among answered items, and unanswered count. It is a practice summary, not a validated assessment or a percentile comparison; matching and reflections are unscored. No answers are sent to a server. A reset control clears saved progress. If browser storage is blocked, progress remains available for the current visit.
 
 ## Curriculum map
 
@@ -109,3 +109,21 @@ NODE_PATH=/path/to/node_modules node scripts/check.js
 The [educational beta is published on GitHub Pages](https://inimed25.github.io/laboratory-medicine-health-equity-ethics/). The October 14, 2026 revision strengthens distractors and next-step reasoning, adds an HCV process/outcome/balancing-measure question and closing exercise, moves answer citations and scope notes into expandable evidence panels, and adds a public feedback route and browser-local progress/reset.
 
 JavaScript compilation and DOM interaction checks pass for all 23 questions, concept matching, skipping, restored answers and stages, outer section navigation, reset/cancel, stale-save protection, and blocked-storage fallback. These checks do not replace full browser rendering, mobile usability, or assistive-technology review. A local browser download was unavailable, so visual browser QA remains outstanding.
+
+## Publication preparation and reviewer feedback — October 21, 2026
+
+The TB case now supplies assay-specific requirements and a concrete fictional transport delay, distinguishing community specimen collection from laboratory processing. The closing section adds a transparent browser-local practice score with unanswered counts and section links.
+
+- [Publication readiness audit and plan](curriculum/audits/publication-readiness-2026-10-21.md): scope, findings, targeted source checks, unresolved checks, and proposed expert review and learner evaluation.
+- [Question review register](curriculum/audits/question-register.md): all 23 items, keys, explanation references, and pending independent review.
+
+Rebuild, export, and run structural/interaction checks:
+
+```sh
+python scripts/build.py
+python scripts/export_draft.py
+NODE_PATH=/path/to/node_modules node scripts/audit_content.js
+NODE_PATH=/path/to/node_modules node scripts/check.js
+```
+
+These changes do not establish educational effectiveness, formal content validity, or publication acceptance. Browser rendering and assistive-technology review remain outstanding; the current environment could not install a usable browser binary.
