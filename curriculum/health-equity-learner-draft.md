@@ -40,11 +40,11 @@ This educational beta does not replace current guidance or patient-specific prof
 
 ## Using the module
 
-Choose an answer, reveal the explanation, and explore the evidence. There is no timer or passing score. The Sections menu lets you move between topics; progress and answers are saved in this browser when storage is available. Use “Reset progress” to clear them. No answers are sent to a server.
+Choose an answer, reveal the explanation, and explore the evidence. There is no timer or passing score. The Sections menu lets you move between topics; progress and answers are saved in this browser when storage is available. Use “Reset progress” to clear them. No answers are sent to a server. A learning summary in the closing section shows your latest submitted answers, with unanswered questions reported separately. Matching and reflections are unscored. This is a practice summary, not a validated competency assessment or comparison with other learners.
 
 **Select “Begin module” below to start.**
 
-Module revised October 14, 2026.
+Module revised October 21, 2026.
 
 # From health disparities to health equity
 
@@ -403,7 +403,7 @@ A colleague asks, “But both groups received a cancer diagnosis—what diagnost
 
 **C**  A diagnostic disparity would exist only if testing revealed actionable alterations at different rates between the groups.
 
-**D**  The cancer was identified, but molecular characterization was available less often before treatment for Black patients, leaving potentially relevant features of their tumors less fully assessed.
+**D**  The cancer was identified, but NGS testing was received less often before treatment among Black patients, creating concern about unequal access to clinically relevant tumor characterization.
 
 **Best answer: D.**  A diagnosis can correctly name the disease while leaving clinically relevant features uncharacterized. Here, the documented disparity concerns receipt of molecular testing before treatment—not demonstrated differences in diagnostic accuracy or the prevalence of actionable alterations. The testing measure does not establish when a completed report became available.
 
@@ -613,13 +613,15 @@ Compare patient burden with the requirements for producing a usable result.
 
 An adult community clinic serves many patients who previously received BCG vaccination. Work schedules and transportation make return visits difficult for some patients. The clinic and laboratory are considering options for testing for TB infection in patients for whom testing is indicated:
 
-| Option | Proposed local workflow |
-| --- | --- |
-| Tuberculin skin test (TST) | Lower direct test cost, but requires a return visit for reading at 48–72 hours |
-| QuantiFERON | Timely incubation requirements cannot currently be met through the proposed local workflow |
-| T-SPOT.TB | Reference-laboratory testing is possible if transport meets the receiving laboratory's acceptance requirements |
+**Collection can occur in a community clinic.**  IGRA cell processing and analysis can occur at the receiving laboratory. The practical question is whether collection, transport, and processing form a reliable pathway.
 
-These are fictional local constraints, not universal descriptions of vendor capability. The actual assay instructions and receiving laboratory requirements determine acceptable handling.
+| Option | Established requirement | Workflow to assess |
+| --- | --- | --- |
+| Tuberculin skin test (TST) | A trained health care worker reads the reaction 48–72 hours after placement. Prior BCG vaccination can affect specificity. | Can patients return within that window without excessive travel or time away from work? |
+| QuantiFERON-TB Gold Plus (QFT-Plus), direct draw into four assay tubes | Collect the specified volume (1 mL per tube; acceptable range 0.8–1.2 mL), mix as directed, keep at 17–25°C before incubation, and start incubation as soon as possible and within 16 hours of collection; incubate upright at 37°C ± 1°C for 16–24 hours. | In this fictional clinic, direct-draw tubes would reach incubation 20 hours after collection, and there is no clinic incubator. This proposed route exceeds the 16-hour limit. Earlier transport, local incubation, or a supported alternative collection route would need to be arranged. |
+| T-SPOT.TB | Peripheral blood mononuclear cells are separated for testing. Standard processing is within 8 hours; a supported T-Cell Xtend workflow can extend this to 32 hours under specified conditions. | Confirm the receiving laboratory’s actual collection, temperature, transport, and processing pathway before offering this route. |
+
+**For QFT-Plus, the 16-hour limit above applies to the direct-draw route shown.**  Manufacturer-supported single-heparin-tube workflows have their own timing and temperature requirements, including a refrigerated option. The clinic and receiving laboratory should assess those options together. Lack of an on-site incubator alone does not rule out clinic collection.
 
 ### Question 1
 
@@ -641,11 +643,15 @@ Which consideration most directly connects the choice of testing approach to equ
 
 - [CDC — Clinical Testing Guidance for TB: Tuberculin Skin Test](https://www.cdc.gov/tb/hcp/testing-diagnosis/tuberculin-skin-test.html)
 
-CDC guidance supports the testing principles. Local workflow and vendor constraints in this case are fictional, not universal assay specifications.
+- [QIAGEN — QFT-Plus US blood collection instructions, Rev. 12 (March 2026)](https://www.qiagen.com/en-us/resources/download/kithandbookandprotocol/hb_3304_012_r12_qftb_goldplus_bct_0326_us)
+
+- [T-SPOT.TB — US package insert, including T-Cell Xtend conditions](https://www.tspot.com/wp-content/uploads/2023/12/TB-PI-US-0001-V13.pdf)
+
+CDC and manufacturer instructions support the requirements above. The clinic’s 20-hour delay is fictional. The questions assess workflow reasoning; the handling details are supplied in the table.
 
 ### Question 2
 
-The team favors a blood-based test because it avoids a return visit and is not affected by prior BCG vaccination. What limits that reasoning in the proposed workflow?
+The team favors a blood-based test because it avoids a return visit for skin-test reading and is not affected by prior BCG vaccination. What must it resolve before offering the proposed direct-draw QFT-Plus route?
 
 **A**  Avoiding a return visit makes completion more feasible, so local processing arrangements are a secondary consideration.
 
@@ -655,7 +661,7 @@ The team favors a blood-based test because it avoids a return visit and is not a
 
 **D**  Reference-laboratory testing resolves local constraints once the clinic has arranged a courier service.
 
-**Best answer: B.**  Patient-facing advantages can be lost if the workflow cannot reliably produce a valid result. Tests for TB infection do not, by themselves, distinguish latent infection from active disease.
+**Best answer: B.**  The proposed 20-hour delay exceeds the 16-hour pre-incubation limit for direct-draw QFT-Plus tubes. Arrange a supported collection-to-processing route so that patients can benefit from a one-visit collection. This requires coordination rather than assuming that community collection is too complex. Tests for TB infection do not, by themselves, distinguish latent infection from active disease.
 
 **Evidence and limitations**
 
@@ -663,9 +669,13 @@ The team favors a blood-based test because it avoids a return visit and is not a
 
 - [CDC — Clinical Testing Guidance for TB: Tuberculin Skin Test](https://www.cdc.gov/tb/hcp/testing-diagnosis/tuberculin-skin-test.html)
 
-CDC guidance supports the testing principles. Local workflow and vendor constraints in this case are fictional, not universal assay specifications.
+- [QIAGEN — QFT-Plus US blood collection instructions, Rev. 12 (March 2026)](https://www.qiagen.com/en-us/resources/download/kithandbookandprotocol/hb_3304_012_r12_qftb_goldplus_bct_0326_us)
 
-**Real-world basis:**  CDC guidance describes the benefits of TB blood tests for BCG-vaccinated patients and patients unlikely to return for skin-test reading, alongside specimen-processing requirements and limitations. The case's specific clinic logistics are hypothetical.
+- [T-SPOT.TB — US package insert, including T-Cell Xtend conditions](https://www.tspot.com/wp-content/uploads/2023/12/TB-PI-US-0001-V13.pdf)
+
+CDC and manufacturer instructions support the requirements above. The clinic’s 20-hour delay is fictional. The questions assess workflow reasoning; the handling details are supplied in the table.
+
+**Real-world basis:**  CDC guidance describes the benefits of TB blood tests for BCG-vaccinated patients and patients unlikely to return for skin-test reading, alongside specimen-processing requirements and limitations. The case's 20-hour collection-to-incubation delay is hypothetical. The table supplies the assay requirements needed to reason through the case.
 
 **Takeaway: A test's practical suitability depends on the population and testing setting.**
 
@@ -678,6 +688,8 @@ CDC guidance supports the testing principles. Local workflow and vendor constrai
 **Clinical usefulness extends beyond analytical performance.**  A test must be accessible and capable of producing information that can be used in care.
 
 References: [CDC — Clinical Testing Guidance for TB: Interferon Gamma Release Assay](https://www.cdc.gov/tb/hcp/testing-diagnosis/interferon-gamma-release-assay.html) and [CDC — Clinical Testing Guidance for TB: Tuberculin Skin Test](https://www.cdc.gov/tb/hcp/testing-diagnosis/tuberculin-skin-test.html). Product labeling and receiving-laboratory instructions determine the handling requirements for the specific collection and testing workflow.
+
+Manufacturer sources: [QIAGEN QFT-Plus US instructions, Rev. 12 (March 2026)](https://www.qiagen.com/en-us/resources/download/kithandbookandprotocol/hb_3304_012_r12_qftb_goldplus_bct_0326_us); [T-SPOT.TB US package insert](https://www.tspot.com/wp-content/uploads/2023/12/TB-PI-US-0001-V13.pdf). Workflow sources reviewed October 21, 2026. This table is an educational summary; use the complete current instructions for specimen collection.
 
 # Diagnostic stewardship through an equity lens
 

@@ -19,8 +19,33 @@ window.moduleGeneration = 0;
 window.readSection = i => progress.sections[i];
 window.saveSection = (i, state, generation) => {
   if (generation !== window.moduleGeneration) return;
-  progress.sections[i] = state; persist();
+  progress.sections[i] = state; persist(); renderScore();
 };
+const questionCounts = sections.map(s => (s.html.match(/<form\b[^>]*data-key=/g) || []).length);
+function scoreSummary() {
+  const rows = questionCounts.map((total, i) => {
+    const results = progress.sections[i]?.results || [];
+    const answered = Math.min(total, results.filter(r => r === 'correct' || r === 'incorrect').length);
+    const correct = Math.min(answered, results.filter(r => r === 'correct').length);
+    return {total, answered, correct, section: i};
+  });
+  return {rows, total: rows.reduce((n,r) => n+r.total,0), answered: rows.reduce((n,r) => n+r.answered,0), correct: rows.reduce((n,r) => n+r.correct,0)};
+}
+function renderScore() {
+  const score = scoreSummary();
+  document.querySelector('#score-total').textContent = score.answered
+    ? `${score.correct} of ${score.answered} answered questions correct (${Math.round(100*score.correct/score.answered)}% of answered questions). ${score.total-score.answered} of ${score.total} questions unanswered.`
+    : `No scored answers yet. ${score.total} multiple-choice questions available.`;
+  const list = document.querySelector('#score-sections');
+  list.replaceChildren();
+  score.rows.filter(r => r.total).forEach(row => {
+    const p = document.createElement('p');
+    const b = document.createElement('button');
+    b.type = 'button'; b.textContent = sections[row.section].label; b.onclick = () => show(row.section);
+    p.append(b, document.createTextNode(` — ${row.correct}/${row.answered} answered correct; ${row.total-row.answered} unanswered`));
+    list.appendChild(p);
+  });
+}
 let active = Number.isInteger(progress.active) && progress.active >= 0 && progress.active < sections.length ? progress.active : 0;
 const visited = new Set((Array.isArray(progress.visited) ? progress.visited : [0]).filter(i => Number.isInteger(i) && i >= 0 && i < sections.length));
 const host = document.querySelector('#frames');
@@ -45,6 +70,8 @@ function show(i) {
   document.querySelector('#position').textContent = sections[i].label;
   document.querySelector('#visited').textContent = [...visited].filter(n => n > 0).length + ' of ' + (sections.length - 1) + ' sections opened';
   menu.hidden = true; toggle.setAttribute('aria-expanded', 'false');
+  document.querySelector('#score-summary').hidden = i !== sections.length - 1;
+  renderScore();
   progress.active = active; progress.visited = [...visited]; persist();
 }
 toggle.onclick = () => { menu.hidden = !menu.hidden; toggle.setAttribute('aria-expanded', String(!menu.hidden)); };
