@@ -39,6 +39,9 @@ fs.mkdirSync(out,{recursive:true});
         await f.locator(`input[value="${key}"]`).check();
         await f.locator('button[type=submit]').click();
         assert.equal(await f.getAttribute('data-result'),'correct');
+        assert.equal(await f.locator('.option-rationales li').count(),3);
+        await f.locator('.option-rationales summary').click();
+        assert(await f.locator('.option-rationales li').first().isVisible());
         await scan(section,`question-${j+1}`);
       }
       const skip=f.locator('.skip-question');

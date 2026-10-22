@@ -1,6 +1,6 @@
 # Question audit register
 
-Generated from current source with scripts/audit_content.js. Structural checks pass: 23 four-option questions, valid keys, feedback and evidence notes, unique IDs within each section. Key distribution: {"A":5,"B":7,"C":6,"D":5}. This checks structure, not factual correctness or item validity.
+Generated from current source with scripts/audit_content.js. Structural checks pass: 23 four-option questions, valid keys, three distractor explanations per question, feedback and evidence notes, unique IDs within each section. Key distribution: {"A":5,"B":7,"C":6,"D":5}. This checks structure, not factual correctness or item validity.
 
 Each row needs independent review of the stem, one-best-answer defensibility, distractor plausibility, source support and scope, and alignment with an objective. “Pending” means independent item review has not been documented. Targeted source checks are recorded separately in publication-readiness-2026-10-21.md.
 

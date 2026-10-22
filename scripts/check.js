@@ -151,7 +151,7 @@ assert.equal(pendingRestore.window.document.querySelector('input:checked').value
 pending.window.close(); pendingRestore.window.close();
 console.log('Learning summary: 23-item denominator, partial scoring, unanswered items, reset, and unsubmitted edits passed.');
 const participation = shell();
-assert.match(participation.window.document.querySelector('#release-label').textContent,/0.3.0-beta/);
+assert.match(participation.window.document.querySelector('#release-label').textContent,/0.3.1-beta/);
 participation.window.show(10);
 participation.window.document.querySelector('#mark-complete').click();
 assert(!participation.window.document.querySelector('#completion-message').hidden);
