@@ -72,6 +72,7 @@ function show(i) {
   menu.hidden = true; toggle.setAttribute('aria-expanded', 'false');
   document.querySelector('#score-summary').hidden = i !== sections.length - 1;
   renderScore();
+  window.renderParticipation?.();
   progress.active = active; progress.visited = [...visited]; persist();
 }
 toggle.onclick = () => { menu.hidden = !menu.hidden; toggle.setAttribute('aria-expanded', String(!menu.hidden)); };
@@ -87,6 +88,7 @@ document.querySelector('#confirm-reset').onclick = () => {
   visited.clear(); visited.add(0); active = 0;
   persist();
   [...host.children].forEach((frame, i) => { frame.srcdoc = sections[i].html; });
+  document.querySelector('#participant-name').value = '';
   show(0); resetDialog.close();
 };
 window.addEventListener('pagehide', () => {

@@ -127,3 +127,17 @@ NODE_PATH=/path/to/node_modules node scripts/check.js
 ```
 
 These changes do not establish educational effectiveness, formal content validity, or publication acceptance. Browser rendering and assistive-technology review remain outstanding; the current environment could not install a usable browser binary.
+
+## Learner experience revision
+
+Version 0.3.0-beta adds self-reported participation recognition, a downloadable HTML acknowledgment with a print/save-as-PDF view, a global feedback route and downloadable correction template, shared version labels, and clearer pause-and-return guidance. No learner name or feedback is automatically transmitted. Research surveys and peer percentiles remain deferred.
+
+The closing practice score remains separate from participation. A numeric completion-time estimate will be added after learner testing. Shared focus, table, narrow-screen, and reduced-motion behavior improves access; see the [learner experience audit](curriculum/audits/learner-experience-2026-10-21.md) for verification and remaining manual checks.
+
+Browser checks require Playwright, a compatible Chromium executable, and `@axe-core/playwright`:
+
+```sh
+NODE_PATH=/path/to/node_modules CHROMIUM_PATH=/path/to/chromium node scripts/browser_check.js
+```
+
+The script starts a local server itself. This browser-check workflow supersedes the earlier environment limitation recorded above; screen-reader and physical-device review are still needed.
