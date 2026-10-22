@@ -141,3 +141,7 @@ NODE_PATH=/path/to/node_modules CHROMIUM_PATH=/path/to/chromium node scripts/bro
 ```
 
 The script starts a local server itself. This browser-check workflow supersedes the earlier environment limitation recorded above; screen-reader and physical-device review are still needed.
+
+## Answer explanations
+
+Version 0.3.1-beta adds three option-specific distractor explanations to every multiple-choice question, for 69 explanations across 23 questions. They appear in an expandable panel within submitted-answer feedback. Correct answers, scoring and skipping remain unchanged. Reasoning follows the supplied case facts and the existing cited explanation; context-dependent alternatives are explained as less appropriate rather than universally wrong. Independent item review remains pending.

@@ -48,7 +48,7 @@ Choose an answer, reveal the explanation, and explore the evidence. There is no 
 
 The closing section offers a participation acknowledgment after you confirm that you have finished reviewing the module. It is independent of your practice score. Use “Feedback or correction” at the top of the page to report a problem or download a feedback template.
 
-Version 0.3.0-beta · Revised October 21, 2026.
+Version 0.3.1-beta · Revised October 21, 2026.
 
 # From health disparities to health equity
 
@@ -78,6 +78,14 @@ Which interpretation is best supported by the FIT completion data?
 **D**  The clinics serving higher-deprivation neighborhoods provide lower-quality care.
 
 **Best answer: A.**  The dashboard measures completion of a health care process, not cancer outcomes or the reasons for the gap. This pattern is a useful starting point for investigation.
+
+**Why the other answers are less appropriate**
+
+- **B.**  The dashboard measures FIT completion, not colorectal cancer incidence. It cannot establish a difference in future cancer risk.
+
+- **C.**  Unequal opportunity is a possible explanation, but the completion rates alone do not establish which barriers patients encountered.
+
+- **D.**  A completion difference does not by itself establish clinic quality. Patient circumstances, workflow, and data completeness need investigation.
 
 **Evidence and limitations**
 
@@ -129,6 +137,14 @@ Which additional finding would most strengthen the interpretation that the compl
 
 **Best answer: B.**  The finding connects incomplete testing to barriers in collection and return. It strengthens the interpretation of inequity by examining how the service fits patients’ needs, rather than assuming a limitation of a population. It does not explain every incomplete test.
 
+**Why the other answers are less appropriate**
+
+- **A.**  Identical kits and instructions establish consistency of provision, but not whether collection and return arrangements are usable for different patients.
+
+- **C.**  A persistent gap strengthens evidence that the pattern recurs; it does not identify unfair barriers or explain the pattern.
+
+- **D.**  Comparable analytical accuracy concerns specimens that are tested. It does not explain unequal opportunities to obtain or complete testing.
+
 **Evidence and limitations**
 
 - [NIMHD — What Are Health Disparities?](https://www.nimhd.nih.gov/about/what-are-health-disparities)
@@ -178,6 +194,14 @@ A patient's address falls within the higher-deprivation category. How should the
 **D**  Exclude neighborhood information from the service review because it cannot establish an individual explanation.
 
 **Best answer: A.**  Area-level patterns can help identify where to investigate and offer support. They do not identify an individual patient's circumstances or preferences. Asking about the actual pathway preserves the usefulness of population data without treating a category as a personal explanation.
+
+**Why the other answers are less appropriate**
+
+- **B.**  Offering support can be helpful, but assigning a package solely from a neighborhood category may miss the patient’s actual needs and preferences.
+
+- **C.**  Population data can guide outreach, but failure to respond does not establish that individuals share the same barriers.
+
+- **D.**  Area-level information remains useful for service review. Its limitations call for individual inquiry rather than discarding the population pattern.
 
 **Evidence and limitations**
 
@@ -270,6 +294,14 @@ What is the most important limitation of judging this program using laboratory a
 
 **Best answer: B.**  Acceptance and turnaround describe specimens that arrived. Beginning the dashboard there leaves earlier losses unexamined. Track the full pathway to locate missed transitions, then investigate why they occur.
 
+**Why the other answers are less appropriate**
+
+- **A.**  A gap between dispatch and receipt identifies a transition to investigate. It does not establish that home collection itself is unsuitable.
+
+- **C.**  Acceptance among returned specimens gives no evidence about whether people who did not return kits still needed testing.
+
+- **D.**  Changing the denominator can describe overall completion more clearly, but it does not identify whether delivery, collection, or return barriers caused losses.
+
 **Evidence and limitations**
 
 - [FDA — Simple 2 Test authorization](https://www.accessdata.fda.gov/cdrh_docs/pdf20/DEN200070.pdf)
@@ -304,6 +336,14 @@ Which next investigation would best distinguish kit-delivery problems from colle
 **D**  Survey patients who successfully returned kits about the clarity of the instructions, and use their responses to select the intervention.
 
 **Best answer: A.**  The largest measured gap emerges between dispatch and specimen receipt. Linking delivery information with collection and return experiences helps separate the steps within that gap. Returned-specimen records and successful users can inform the review, but leave out people who never reached those stages. Contact methods should be feasible and protect privacy; an investigation may still leave some causes unknown.
+
+**Why the other answers are less appropriate**
+
+- **B.**  Rejection records describe specimens that arrived. They cannot directly explain kits or specimens that never reached the laboratory.
+
+- **C.**  Transit times among returned specimens inform the transport step, but exclude unsuccessful delivery and patients who never collected or returned a specimen.
+
+- **D.**  Successful users provide useful feedback, but relying on them alone risks missing the experiences of people who could not complete the pathway.
 
 **Evidence and limitations**
 
@@ -369,6 +409,14 @@ What makes this an equity concern beyond the laboratory’s reporting performanc
 
 **Best answer: C.**  A patient-dependent follow-up pathway can create different opportunities to benefit from the same reported result. Examine communication access and coordination across release or transfer. Unknown follow-up must remain distinct from documented absence of treatment.
 
+**Why the other answers are less appropriate**
+
+- **A.**  Meeting a shared reporting target does not establish that patients have comparable access to messages or the ability to arrange follow-up.
+
+- **B.**  Unavailable follow-up documentation means treatment status is unknown. It does not establish that a released patient went untreated.
+
+- **D.**  Turnaround-time comparisons describe timing. They cannot alone establish communication barriers, their causal role, or a treatment disparity.
+
 **Evidence and limitations**
 
 [Wolf et al. — Screening for Chlamydia and Gonorrhea in Youth Correctional Facilities, Utah, USA (2024)](https://wwwnc.cdc.gov/eid/article/30/13/23-0712_article)
@@ -411,6 +459,14 @@ A colleague asks, “But both groups received a cancer diagnosis—what diagnost
 
 **Best answer: D.**  A diagnosis can correctly name the disease while leaving clinically relevant features uncharacterized. Here, the documented disparity concerns receipt of molecular testing before treatment—not demonstrated differences in diagnostic accuracy or the prevalence of actionable alterations. The testing measure does not establish when a completed report became available.
 
+**Why the other answers are less appropriate**
+
+- **A.**  Diagnostic characterization can continue after the disease is named. Molecular testing receipt is part of the diagnostic pathway even when it also informs treatment.
+
+- **B.**  The study compares testing receipt, not the accuracy of the original cancer diagnoses. Lower receipt does not establish misdiagnosis.
+
+- **C.**  Unequal access to clinically relevant testing can be examined without first demonstrating different actionable-alteration rates among those tested.
+
 **Evidence and limitations**
 
 - [Disparities in Biomarker Testing and Clinical Trial Enrollment Among Patients With Lung, Breast, or Colorectal Cancers in the United States](https://pubmed.ncbi.nlm.nih.gov/35737912/)
@@ -432,6 +488,14 @@ Why does distinguishing “before first-line therapy” from “at any time” m
 **D**  The difference between the measures establishes that delayed testing changed treatment outcomes.
 
 **Best answer: B.**  Eventually receiving testing is different from having molecular information available at an earlier decision point. An “ever tested” measure can miss unequal opportunities to use information when initial treatment decisions are made. Neither measure alone establishes why testing was absent or delayed, whether results were available when needed, or how treatment outcomes were affected.
+
+**Why the other answers are less appropriate**
+
+- **A.**  Testing later does not establish that molecular information was available when initial treatment decisions were made.
+
+- **C.**  Both measures reflect several steps, including ordering and specimen availability. Neither isolates laboratory turnaround time or clinicians’ ordering practices.
+
+- **D.**  The timing comparison does not establish that delays caused different treatments or outcomes. Those outcomes require separate evidence.
 
 **Evidence and limitations**
 
@@ -481,6 +545,14 @@ What is the central equity concern with this approach?
 
 **Best answer: D.**  Population patterns can be informative, but a demographic category is an imperfect proxy for an individual's genetics. When that category determines who is offered testing, its limitations can affect access before a specimen is collected.
 
+**Why the other answers are less appropriate**
+
+- **A.**  Population frequencies can inform laboratory practice. The problem is using recorded race or ethnicity as a gatekeeper for an individual testing offer.
+
+- **B.**  Allowing multiple categories may improve demographic recording, but still does not establish an individual’s genetic ancestry or carrier status.
+
+- **C.**  Consistent analysis applies after collection. It does not correct unequal access created by the rule deciding who is offered testing.
+
 **Evidence and limitations**
 
 - [ACOG — Hemoglobinopathies in Pregnancy](https://www.acog.org/clinical/clinical-guidance/practice-advisory/articles/2022/08/hemoglobinopathies-in-pregnancy)
@@ -523,6 +595,14 @@ Which response best explains the reference-interval issue?
 
 **Best answer: C.**  A reference interval describes a population distribution. Confirmed Duffy-null status may help explain how this stable count compares with a relevant population; race alone cannot supply that information. Neither the flag nor Duffy status replaces assessment for other causes when clinically indicated.
 
+**Why the other answers are less appropriate**
+
+- **A.**  The flag identifies a comparison with the current interval; it does not supply a complete interpretation or establish disease.
+
+- **B.**  Known Duffy-null status may help explain a stable baseline, but does not exclude another cause when symptoms or other findings warrant assessment.
+
+- **D.**  Recorded race cannot establish Duffy status. A race-based substitute would miss biological variation within the category.
+
 **Evidence and limitations**
 
 - [Development of Duffy Null–Specific Absolute Neutrophil Count Reference Ranges](https://pmc.ncbi.nlm.nih.gov/articles/PMC10282887/)
@@ -550,6 +630,14 @@ What equity concern does this raise?
 **D**  Some individuals may be excluded because their baseline count falls below the threshold, even when that count is consistent with their Duffy-null status.
 
 **Best answer: D.**  A uniform threshold can affect people differently when their baseline distributions differ. A reference interval describes a population distribution; it does not establish treatment safety or replace a treatment-specific assessment.
+
+**Why the other answers are less appropriate**
+
+- **A.**  Applying the same cutoff to everyone can still create different exclusions when relevant baseline count distributions differ.
+
+- **B.**  A lower threshold assigned by race would substitute a demographic proxy for individual biology and treatment-specific assessment.
+
+- **C.**  A reference interval describes a population distribution. It does not establish that a particular treatment is safe for everyone within it.
 
 **Evidence and limitations**
 
@@ -594,6 +682,14 @@ Which response best explains the concern?
 **D**  Select the panel with more variants first, and assess their relevance to the intended use after implementation.
 
 **Best answer: C.**  Accuracy for included targets and the scope of those targets are different properties. Review whether the panel covers variants relevant to its intended use. Ancestry patterns can inform target selection, but do not establish an individual genotype. AMP/CAP’s cited CYP2C9 recommendation includes all six alleles in its Tier 1 minimum set.
+
+**Why the other answers are less appropriate**
+
+- **A.**  Agreement for shared targets evaluates those targets. It says nothing about variants one panel omits and therefore cannot establish equivalent coverage.
+
+- **B.**  Recorded race does not determine an individual’s genotype. Using it to restrict broader testing can leave relevant variants unassessed.
+
+- **D.**  More variants are not automatically more useful. Relevance to the intended use and allele-selection recommendations should inform selection before implementation.
 
 **Evidence and limitations**
 
@@ -641,6 +737,14 @@ Which consideration most directly connects the choice of testing approach to equ
 
 **Best answer: A.**  A test's practical suitability includes what patients and the testing system must do to obtain a usable result. Equal policy, lower direct cost, or a single collection visit does not establish equivalent access.
 
+**Why the other answers are less appropriate**
+
+- **B.**  A uniform policy does not remove differences in patients’ ability to return or in the system’s ability to process their specimens.
+
+- **C.**  Direct test cost leaves out travel, time away from work, repeat collection, and the burden of incomplete testing.
+
+- **D.**  A single collection visit can reduce return-visit burden, but does not guarantee valid processing or eliminate other access barriers.
+
 **Evidence and limitations**
 
 - [CDC — Clinical Testing Guidance for TB: Interferon Gamma Release Assay](https://www.cdc.gov/tb/hcp/testing-diagnosis/interferon-gamma-release-assay.html)
@@ -666,6 +770,14 @@ The team favors a blood-based test because it avoids a return visit for skin-tes
 **D**  Reference-laboratory testing resolves local constraints once the clinic has arranged a courier service.
 
 **Best answer: B.**  The proposed 20-hour delay exceeds the 16-hour pre-incubation limit for direct-draw QFT-Plus tubes. Arrange a supported collection-to-processing route so that patients can benefit from a one-visit collection. This requires coordination rather than assuming that community collection is too complex. Tests for TB infection do not, by themselves, distinguish latent infection from active disease.
+
+**Why the other answers are less appropriate**
+
+- **A.**  Avoiding a return visit is useful only if the specimen can yield a valid result. Processing requirements are essential to the proposed route.
+
+- **C.**  Direct cost alone does not resolve the handling problem or establish the best approach. The supplied patient and workflow constraints already merit consideration.
+
+- **D.**  A courier is only one part of the pathway. Its schedule, temperature conditions, and receipt-to-processing interval must meet the supported requirements.
 
 **Evidence and limitations**
 
@@ -723,6 +835,14 @@ Which response best explains the concern?
 
 **Best answer: C.**  The laboratory may produce technically accurate results while participating in a testing pathway that affects populations differently. The disparity begins before the specimen arrives.
 
+**Why the other answers are less appropriate**
+
+- **A.**  Differences in ordering rates describe selection for testing. They do not establish differences in analytical or diagnostic performance of the assay.
+
+- **B.**  Positivity among selected newborns cannot show whether untested newborns had similar indications or whether the selection process was appropriate.
+
+- **D.**  Ordering is a shared clinical workflow that laboratories can help examine. Analytical consistency alone does not address unequal exposure to testing and its consequences.
+
 **Evidence and limitations**
 
 - [Schoneich et al. — Incidence of Newborn Drug Testing and Variations by Birthing Parent Race and Ethnicity Before and After Recreational Cannabis Legalization](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2802124)
@@ -744,6 +864,14 @@ An obstetric clinician asks whether testing every newborn would resolve the equi
 **D**  Universal testing would be justified if the overall positive-result rate remained high enough to support its use.
 
 **Best answer: B.**  Making testing universal could change who is selected, but equal testing is not automatically equitable or beneficial testing. Analytical confirmation addresses one source of uncertainty; it does not establish that testing everyone improves care. Likewise, a positive-result rate alone does not describe how results affect patients and families.
+
+**Why the other answers are less appropriate**
+
+- **A.**  Equal opportunity for detection does not establish that detecting exposure benefits every newborn or that consent and downstream consequences are acceptable.
+
+- **C.**  Confirmation can address analytical uncertainty, but does not by itself establish the clinical value or appropriateness of testing everyone.
+
+- **D.**  A high positivity rate describes detection among those tested. It does not establish improved care or justify all consequences of universal testing.
 
 **Evidence and limitations**
 
@@ -817,6 +945,14 @@ Completion increased from 65% to 90%. A colleague describes this as an equity im
 
 **Best answer: C.**  Overall completion improved, but the aggregate result does not show who benefited. Stratify completion across relevant settings before describing the distribution of improvement. RNA positivity answers a different question.
 
+**Why the other answers are less appropriate**
+
+- **A.**  Offering the same workflow does not show who completed testing or which groups benefited. Stratified results are needed.
+
+- **B.**  RNA positivity concerns detected infection, whereas the claim concerns opportunity to complete testing. The measures answer different questions.
+
+- **D.**  A stable overall denominator does not reveal the distribution of completion or improvement across settings.
+
 **Evidence and limitations**
 
 - [CDC — Updated Operational Guidance for Implementing CDC's Recommendations on Testing for Hepatitis C Virus Infection](https://www.cdc.gov/mmwr/volumes/72/wr/mm7228a2.htm)
@@ -847,6 +983,14 @@ What is supported by the stratified data?
 
 **Best answer: D.**  Community-clinic completion increased by 42 percentage points and hospital-clinic completion by 8. The absolute gap narrowed from 50 to 16 percentage points. These descriptive results support improvement and a narrower gap, while the mechanisms and remaining barriers require investigation.
 
+**Why the other answers are less appropriate**
+
+- **A.**  Community-clinic completion increased by 42 percentage points, compared with 8 in hospital clinics. The remaining gap does not negate that larger gain.
+
+- **B.**  Equal denominators make the percentages easy to compare, but do not establish comparable patient circumstances or opportunities for completion.
+
+- **C.**  A larger gain describes the pattern. It does not identify which workflow component caused it or exclude other changes.
+
 **Evidence and limitations**
 
 - [CDC — Updated Operational Guidance for Implementing CDC's Recommendations on Testing for Hepatitis C Virus Infection](https://www.cdc.gov/mmwr/volumes/72/wr/mm7228a2.htm)
@@ -866,6 +1010,14 @@ The team considers whether collection infrastructure contributes to remaining in
 **D**  A staff survey found variation in knowledge of the new workflow.
 
 **Best answer: A.**  This finding links missed collections to a specific operational constraint more directly than the other observations. It supports a hypothesis without establishing that supplies explain every missed collection.
+
+**Why the other answers are less appropriate**
+
+- **B.**  A request for training identifies a perceived need. It does not demonstrate that knowledge deficits caused missed collections or explain supply-related barriers.
+
+- **C.**  Several features differ together, leaving competing explanations. This is less specific evidence for supply availability than clustering of missed collections on supply-shortage days.
+
+- **D.**  Variation in knowledge suggests a possible training issue, but does not directly link collection failures to missing infrastructure.
 
 **Evidence and limitations**
 
@@ -888,6 +1040,14 @@ The team proposes a small pilot to keep collection supplies available. Which mea
 **D**  Track completion among patients with specimens received and courier delays; use these to assess access before collection.
 
 **Best answer: B.**  The process measure tests whether the intended change happened. Stratified completion shows who reached the next diagnostic step, and a balancing measure looks for burdens introduced or shifted by the change. Define denominators from eligible reactive-antibody episodes, rather than only received RNA specimens. Staff and patients can help choose feasible measures. This is a proposed local evaluation, not a validated intervention.
+
+**Why the other answers are less appropriate**
+
+- **A.**  Overall completion and spending omit whether clinic gaps persist and whether the pilot shifts travel, workload, or other burdens.
+
+- **C.**  Positivity and satisfaction do not directly measure whether supplies were available or whether eligible patients completed RNA testing.
+
+- **D.**  Starting with received specimens excludes patients lost before collection. Courier delays alone cannot assess those earlier access barriers.
 
 **Evidence and limitations**
 
@@ -937,6 +1097,14 @@ Before using these labels to train a model of underlying disease, which next ste
 
 **Best answer: D.**  Untested patients are not established negatives. Reviewing label validity and who gets tested addresses the problem before model fitting. Reweighting and subgroup evaluation may be useful later, but cannot by themselves repair an invalid reference label. Restricting to tested patients changes the population and does not establish performance for those never tested. The final modeling approach depends on the intended use and available ascertainment data.
 
+**Why the other answers are less appropriate**
+
+- **A.**  Restricting to tested patients changes the development population. Performance in that subset cannot simply be assumed to apply to patients who were not tested.
+
+- **B.**  Reweighting groups does not change the fact that untested patients have been assigned an unsupported negative label.
+
+- **C.**  Subgroup evaluation against the same testing-dependent labels can reproduce the ascertainment problem rather than reveal accuracy for underlying disease.
+
 **Evidence and limitations**
 
 - [Racial differences in laboratory testing as a potential mechanism for bias in AI: A matched cohort analysis in emergency department visits](https://pmc.ncbi.nlm.nih.gov/articles/PMC11524489/)
@@ -972,6 +1140,14 @@ What should the laboratory clarify before judging whether the changed hemoglobin
 **D**  Whether the patient has symptoms of erythrocytosis, then retain the default flag if none are reported.
 
 **Best answer: C.**  First establish what the software did and whether the applied interval fits the analyte and relevant physiology. Hormone exposure and duration can matter for hemoglobin interpretation. Administrative-field accuracy or symptom review alone does not establish that the comparison interval is suitable. This is a reporting review, not a patient-specific diagnosis.
+
+**Why the other answers are less appropriate**
+
+- **A.**  Confirming the administrative update does not establish that its automatically selected interval is appropriate for this analyte and physiological context.
+
+- **B.**  Sex assigned at birth alone does not resolve the relevance of current hormone exposure to hemoglobin interpretation.
+
+- **D.**  Symptoms matter clinically, but their absence does not establish that the software applied an appropriate comparison interval.
 
 **Evidence and limitations**
 
@@ -1030,6 +1206,14 @@ What does this case add to the interpretation of testing access?
 **D**  A confidential laboratory result would resolve the concern because billing communications are separate from the diagnostic pathway.
 
 **Best answer: B.**  Usable access includes the ability to seek testing with acceptable privacy. Laboratory-result confidentiality and billing communications involve different systems. This patient’s concern warrants clarification with the relevant teams; it does not establish a population-level cause.
+
+**Why the other answers are less appropriate**
+
+- **A.**  Administrative communications can influence whether patients seek testing. They are relevant to usable diagnostic access even when the assay is available.
+
+- **C.**  One fictional patient’s decision illustrates a possible barrier. It cannot establish the cause of population-level testing differences.
+
+- **D.**  Protecting the laboratory result does not necessarily prevent disclosure through separate billing communications. Both pathways require clarification.
 
 **Evidence and limitations**
 
