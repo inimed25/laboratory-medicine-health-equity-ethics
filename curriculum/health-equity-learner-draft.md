@@ -40,11 +40,15 @@ This educational beta does not replace current guidance or patient-specific prof
 
 ## Using the module
 
+**Take this at your own pace.**  You can pause and return in the same browser when storage is available. Clearing browser data or switching devices does not carry progress with you. If storage is blocked, progress lasts only for the current visit. Completion time will be estimated after learner testing.
+
 Choose an answer, reveal the explanation, and explore the evidence. There is no timer or passing score. The Sections menu lets you move between topics; progress and answers are saved in this browser when storage is available. Use “Reset progress” to clear them. No answers are sent to a server. A learning summary in the closing section shows your latest submitted answers, with unanswered questions reported separately. Matching and reflections are unscored. This is a practice summary, not a validated competency assessment or comparison with other learners.
 
 **Select “Begin module” below to start.**
 
-Module revised October 21, 2026.
+The closing section offers a participation acknowledgment after you confirm that you have finished reviewing the module. It is independent of your practice score. Use “Feedback or correction” at the top of the page to report a problem or download a feedback template.
+
+Version 0.3.0-beta · Revised October 21, 2026.
 
 # From health disparities to health equity
 
